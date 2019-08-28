@@ -1,0 +1,38 @@
+{
+    "features": {
+        "pulseRate": {
+            "Upper Bound": 100,
+            "Lower Bound": 50,
+            "Priority": 5
+        },
+        "temperature": {
+            "Upper Bound": 99,
+            "Lower Bound": 97.7,
+            "Priority": 3
+        },
+        "insulinLevel": {
+            "Upper Bound": 130,
+            "Lower Bound": 70,
+            "Priority": 5
+        },
+        "plateletCount": {
+            "Upper Bound": 450000,
+            "Lower Bound": 150000,
+            "Priority": 5
+        },
+        "rbcCount": {
+            "Upper Bound": 6100000,
+            "Lower Bound": 4700000,
+            "Priority": 3
+        },
+        "thyroidLevel": {
+            "Upper Bound": 2,
+            "Lower Bound": 0.6,
+            "Priority": 3
+        }
+    },
+    "ListOfMandatoryfeatures": ["HeartBeat", "PulseRate"],
+    "Details": {
+        "patientId": 1
+    }
+}
